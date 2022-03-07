@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import profile from "../profile";
+import profile from "../data/profile";
 
 function Header() {
   return (

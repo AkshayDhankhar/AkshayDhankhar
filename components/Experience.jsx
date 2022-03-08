@@ -4,17 +4,37 @@ import Typography from "@mui/material/Typography";
 
 const experiences = [
   {
-    title: "Senior Software Enginner",
+    title: "Senior Software Engineer",
     org: "Meesho, Bangalore",
     time: "Jan 2021 – Present",
-    responsiblities: [
-      // 'Architect, Design and develop front-end applications',
-      // 'Created micro front-end architecture to manage larger app into individual apps for scalability, faster development etc.',
-      // 'Collaborate with team members and stakeholders',
-      // 'Build reusable code and libraries for future use',
-      // 'Optimize application for maximum speed and scalability',
-      // 'Following SEO best practices',
-    ],
+    responsiblities: [],
+  },
+  {
+    title: "Senior Software Engineer",
+    org: "SAP Labs, Bangalore",
+    time: "Sept 2018 – Jan 2021",
+    responsiblities: [],
+  },
+
+  {
+    title: "Senior Software Engineer",
+    org: "PowerSchool, Bangalore",
+    time: "Jan 2018 – Sept 2018",
+    responsiblities: [],
+  },
+
+  {
+    title: "Senior Software Engineer",
+    org: "Brillio, Bangalore",
+    time: "July 2016 – Jan 2018",
+    responsiblities: [],
+  },
+
+  {
+    title: "Software Engineer",
+    org: "Above Solutions pvt. ltd., Bangalore",
+    time: "Jun 2014 – June 2016",
+    responsiblities: [],
   },
 ];
 
@@ -27,7 +47,7 @@ function Experience() {
       {experiences.map((exp) => (
         <Box key={exp.org}>
           <Stack spacing={1} direction="row" alignItems="baseline">
-            <Typography variant="body" component="h2" sx={{ fontWeight: 400 }}>
+            <Typography variant="h6" component="h2">
               {exp.title}
             </Typography>
             <Typography variant="body2" component="h3" color="text.secondary">

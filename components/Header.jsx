@@ -1,3 +1,4 @@
+import { Avatar } from "@mui/material";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
@@ -7,15 +8,13 @@ function Header() {
   return (
     <Box
       sx={{
-        display: "grid",
-        gridAutoColumns: "1fr",
-        gap: 1,
+        display: "flex",
         p: 2,
         background: "white",
         mb: 0.5,
       }}
     >
-      <Stack sx={{ gridRow: "1", gridColumn: "span 3" }}>
+      <Stack sx={{ pr: 2 }}>
         <Typography variant="h4" component="h1" sx={{ fontWeight: 500 }}>
           {profile.header.name}
         </Typography>
@@ -33,20 +32,10 @@ function Header() {
 
         </Typography> */}
       </Stack>
-      <Box
-        sx={{
-          gridRow: "1",
-          gridColumn: "span 1",
-          display: "flex",
-          justifyContent: "end",
-        }}
-      >
-        {/* <Image
-          src="https://avatars.githubusercontent.com/u/31248807?s=200"
-          height="150"
-          width="150"
-        /> */}
-      </Box>
+      {/* <Avatar
+        src="https://avatars.githubusercontent.com/u/31248807?s=200"
+        sx={{ width: 100, height: 100 }}
+      /> */}
     </Box>
   );
 }

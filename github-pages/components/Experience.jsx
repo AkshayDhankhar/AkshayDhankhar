@@ -20,17 +20,17 @@ const experiences = [
 
 function Experience() {
   return (
-    <Box p={2} sx={{ background: "white" }}>
+    <Box p={2} sx={{ background: "white", mb: 0.5 }}>
       <Typography variant="h6" component="h1" sx={{ fontWeight: 500, pb: 2 }}>
         Experience
       </Typography>
       {experiences.map((exp) => (
         <Box key={exp.org}>
-          <Stack spacing={1} direction="row">
-            <Typography variant="h5" component="h2" sx={{ fontWeight: 400 }}>
+          <Stack spacing={1} direction="row" alignItems="baseline">
+            <Typography variant="body" component="h2" sx={{ fontWeight: 400 }}>
               {exp.title}
             </Typography>
-            <Typography variant="body" component="h3" color="text.secondary">
+            <Typography variant="body2" component="h3" color="text.secondary">
               ({exp.org})
             </Typography>
           </Stack>

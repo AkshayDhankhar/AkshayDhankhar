@@ -4,7 +4,7 @@ import profile from "../data/profile";
 
 function Details() {
   return (
-    <Stack p={2} sx={{ background: "white" }}>
+    <Stack p={2} sx={{ background: "white", mb: 0.5 }}>
       <Typography variant="h6" component="h1" sx={{ fontWeight: 500 }}>
         What I Do
       </Typography>

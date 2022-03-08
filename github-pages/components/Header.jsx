@@ -12,13 +12,14 @@ function Header() {
         gap: 1,
         p: 2,
         background: "white",
+        mb: 0.5,
       }}
     >
       <Stack sx={{ gridRow: "1", gridColumn: "span 3" }}>
         <Typography variant="h4" component="h1" sx={{ fontWeight: 500 }}>
           {profile.header.name}
         </Typography>
-        <Typography variant="body" component="h2" color="text.secondary">
+        <Typography variant="body2" component="h2" color="text.secondary">
           {profile.header.title}
         </Typography>
 

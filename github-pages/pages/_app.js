@@ -1,6 +1,5 @@
 import Container from "@mui/material/Container";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { useEffect } from "react";
 
 import "../styles/globals.css";
 const theme = createTheme({
@@ -12,14 +11,6 @@ const theme = createTheme({
 });
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    if (typeof document !== "undefined") {
-      if (document.getElementsByTagName("body").length) {
-        document.getElementsByTagName("body")[0].style.background =
-          "rgb(242, 245, 250)";
-      }
-    }
-  }, []);
   return (
     <ThemeProvider theme={theme}>
       <Container
@@ -30,7 +21,7 @@ function MyApp({ Component, pageProps }) {
           "@media (min-width: 600px)": {
             padding: 0,
           },
-          background: "rgb(242, 245, 250) !important;",
+          // background: "rgb(242, 245, 250) !important;",
         }}
       >
         <Component {...pageProps} />

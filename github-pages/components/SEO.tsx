@@ -13,6 +13,11 @@ const SEO = () => {
         content={header.description}
         key="description"
       />
+      <style>{`
+        body {
+          background: rgb(242, 245, 250) !important;
+        }
+      `}</style>
     </Head>
   );
 };

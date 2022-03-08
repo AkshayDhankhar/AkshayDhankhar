@@ -1,23 +1,23 @@
+import { NextSeo } from "next-seo";
 import Head from "next/head";
 import profile from "../data/profile";
 
-const SEO = () => {
+export const getMeta = () => {
   const { header } = profile;
   const title = `${header.name} - ${header.title}`;
+  return { title, description: header.description, keywords: header.keywords };
+};
+
+const SEO = () => {
+  const meta = getMeta();
   return (
     <Head>
-      <title>{title}</title>
-      <meta property="og:title" content={title} key="title" />
-      <meta
-        property="og:description"
-        content={header.description}
-        key="description"
-      />
       <style>{`
         body {
           background: rgb(242, 245, 250) !important;
         }
       `}</style>
+      <NextSeo {...meta} />
     </Head>
   );
 };

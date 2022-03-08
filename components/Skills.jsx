@@ -1,6 +1,6 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-// import Image from 'next/image';
+import { getMeta } from "./SEO";
 
 const skills = [
   "https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg",
@@ -35,6 +35,7 @@ const skills = [
 ];
 
 function Skills() {
+  const meta = getMeta();
   return (
     <Box p={2} sx={{ background: "white", mb: 0.5 }}>
       <Typography variant="h6" component="h1" sx={{ fontWeight: 500, pb: 2 }}>
@@ -42,7 +43,13 @@ function Skills() {
       </Typography>
       {skills.map((url) => (
         <Box key={url} component="span" pr={1} pb={1}>
-          <img height="50" width="100px" src={url} />
+          <img
+            height="50"
+            width="100px"
+            src={url}
+            alt={meta.title}
+            title={meta.title}
+          />
         </Box>
       ))}
     </Box>

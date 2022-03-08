@@ -1,6 +1,7 @@
 import { Stack } from "@mui/material";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { getMeta } from "./SEO";
 
 const networks = [
   {
@@ -32,6 +33,8 @@ const networks = [
 ];
 
 function ReachMe() {
+  const meta = getMeta();
+
   return (
     <Box p={2} sx={{ background: "white", mb: 0.5 }}>
       <Typography variant="h6" component="h1" sx={{ fontWeight: 500, pb: 2 }}>
@@ -44,7 +47,8 @@ function ReachMe() {
               align="center"
               height={network.height ?? 50}
               src={network.icon}
-              alt="Rahul Sharma(DevsMitra)"
+              alt={meta.title}
+              title={meta.title}
             />
           </a>
         ))}
@@ -60,12 +64,15 @@ function ReachMe() {
           <img
             height="200"
             src="https://github-readme-stats.vercel.app/api?username=devsmitra&show_icons=true&locale=en"
-            alt="devsmitra"
+            alt={meta.title}
+            title={meta.title}
           />
         </Box>
         <img
           height="200"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=devsmitra&layout=compact&langs_count=7"
+          alt={meta.title}
+          title={meta.title}
         />
       </Box>
     </Box>

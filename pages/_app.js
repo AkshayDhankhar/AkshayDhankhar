@@ -1,5 +1,7 @@
+import { DefaultSeo } from "next-seo";
 import Container from "@mui/material/Container";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { getMeta } from "../components/SEO";
 import "../styles/globals.css";
 
 const theme = createTheme({
@@ -11,8 +13,10 @@ const theme = createTheme({
 });
 
 function MyApp({ Component, pageProps }) {
+  const meta = getMeta();
   return (
     <ThemeProvider theme={theme}>
+      <DefaultSeo {...meta} />
       <Container
         sx={{
           height: "100%",

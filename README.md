@@ -1,4 +1,4 @@
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I am Rahul Sharma(DevsMitra) </h1>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I am Akshay Dhankar</h1>
 <p align="center">
 <a href="https://www.linkedin.com/in/rahul-sharma-18b8b374" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" alt="Rahul Sharma(DevsMitra)" height="50"  /></a><a href="https://stackoverflow.com/users/8879527/rahul-sharma?tab=profile" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/stackoverflow/stackoverflow-ar21.svg" alt="Rahul Sharma(DevsMitra)" height="50" /></a><a href="https://devsmitra.medium.com/" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/medium/medium-ar21.svg" alt="Rahul Sharma(DevsMitra)" height="50" /></a><a href="https://stackblitz.com/@devsmitra" target="blank"><img align="center" src="https://developer.stackblitz.com/img/logo.svg" alt="Rahul Sharma(DevsMitra)" height="30" /></a> <a href="https://codesandbox.io/u/DevsMitra" height="50" target="blank"><img align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhHNYp4KGM7yQ8SLGOuUPuZ4b9nVZiEjNy1gbwNj0Q1P8eMmJlDioD6K2ihRhPEO1zgls&usqp=CAU" alt="Rahul Sharma(DevsMitra)" height="40" /></a>
 </p><br>
@@ -14,26 +14,10 @@
 
 <h3>🤙🏻 How to Reach me: </h3>
 
-- [Catch me On: **LinkedIn**](https://www.linkedin.com/in/rahul-sharma-18b8b374)
-- [Read my blogs on: **DevsMitra Medium**](https://devsmitra.medium.com/)
-- [**StackOverflow**](https://stackoverflow.com/users/8879527/rahul-sharma?tab=profile)
+- [Catch me On: **LinkedIn**](https://www.linkedin.com/in/akshay-d-968694152)
+- [**StackOverflow**](https://stackoverflow.com/users/9397546/akshay-dhankar)
 - [**Github**](https://github.com/devsmitra)
   <br>
-
-<h3>✍️ Code Examples: </h3>
-
-- [**DevsMitra Stackblitz**](https://stackblitz.com/@devsmitra)
-- [**DevsMitra CodeSandbox**](https://codesandbox.io/u/DevsMitra)
-  <br>
-
-<h3>🔭 Open Source Contribution: </h3>
-
-- [**Astro** (Ship Less JavaScript)](https://github.com/snowpackjs/astro)
-<br>
-<div style="display: flex;">
-<img height="180em" style="padding-right: 16px" src="https://github-readme-stats.vercel.app/api?username=devsmitra&show_icons=true&locale=en" alt="devsmitra" />
-<img height="180em" style="padding-right: 16px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devsmitra&layout=compact&langs_count=7"/>
-</div>
 <br>
 
 <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px" align="center" >&nbsp;**_My Programming skills & working tools..._**

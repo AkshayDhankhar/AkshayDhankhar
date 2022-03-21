@@ -16,7 +16,7 @@
 
 - [Catch me On: **LinkedIn**](https://www.linkedin.com/in/akshay-d-968694152)
 - [**StackOverflow**](https://stackoverflow.com/users/9397546/akshay-dhankar)
-- [**Github**](https://github.com/devsmitra)
+- [**Github**](https://github.com/AkshayDhankhar)
   <br>
 <br>
 

@@ -7,7 +7,6 @@
 
 <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px" align="center">&nbsp;**_About me..._**
 
-✔ I’m currently learning about **Flutter** <br>
 ✔ I’m looking to collaborate with any **Open - Source Javascript Project**<br>
 ✔ Ask from me anything you want, If I am alive I will answer within seconds 😉<br>
 ✔ Fun fact : _I Always try to learn something new and then sleep till it store in the brain_ 😎<br>
